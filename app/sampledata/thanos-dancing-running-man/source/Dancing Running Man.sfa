@@ -1,0 +1,202 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'mixamo.com',
+        },
+      ],
+      path: 'sampledata/thanos-dancing-running-man/source/Dancing Running Man.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'lambert2',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'thanos_body',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'lambert3',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'infinity_gauntlet',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'lambert4',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'thanos_head',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'lambert5',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'thanos_helmet',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/thanos-dancing-running-man/source/Dancing Running Man.fbx',
+    name: 'Dancing Running Man',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/thanos-dancing-running-man/source\\Dancing Running Man.fbm\\thanos_body.png',
+      name: 'thanos_body',
+      pipeline_name: 'Dancing Running Man.fbm\\thanos_body.png',
+    },
+    {
+      file: 'sampledata/thanos-dancing-running-man/source\\Dancing Running Man.fbm\\infinity_gauntlet.png',
+      name: 'infinity_gauntlet',
+      pipeline_name: 'Dancing Running Man.fbm\\infinity_gauntlet.png',
+    },
+    {
+      file: 'sampledata/thanos-dancing-running-man/source\\Dancing Running Man.fbm\\thanos_head.png',
+      name: 'thanos_head',
+      pipeline_name: 'Dancing Running Man.fbm\\thanos_head.png',
+    },
+    {
+      file: 'sampledata/thanos-dancing-running-man/source\\Dancing Running Man.fbm\\thanos_helmet.png',
+      name: 'thanos_helmet',
+      pipeline_name: 'Dancing Running Man.fbm\\thanos_helmet.png',
+    },
+  ],
+  version: '0.54:2',
+}
